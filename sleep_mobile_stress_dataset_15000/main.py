@@ -1,7 +1,12 @@
-from data.data import load_data
-from src.preprocessing import get_data_summary
-from src.visualization import plot_analysis
-from src.utils import handle_error
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# Point Python to the [subfolder].[filename]
+from data.data_loader import load_data
+from preprocessing.preprocessing import get_data_summary
+from visualization.visualization import plot_analysis
+from utility_function.utility_function import handle_error
 
 def main():
     file_path = 'data/sleep_mobile_stress_dataset_15000.csv'

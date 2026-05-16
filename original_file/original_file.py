@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def main():
-    file_path = 'sleep_mobile_stress_dataset_15000.csv'
+    file_path = '../sleep_mobile_stress_dataset_15000/data/sleep_mobile_stress_dataset_15000.csv'
 
     try:
         # Load the dataset
