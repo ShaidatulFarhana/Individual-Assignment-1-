@@ -16,11 +16,7 @@ While there are no strict naming conventions for the `.py` files within each fol
 
 - data/data_loader.py
 - preprocessing/preprocessing.py
-- models/ml_models.py
-- models/deep_learning.py
-- evaluation/evaluation.py
 - utils/visualization.py
-- tests/test_data_loader.py (and similar `test_*.py` for other modules)
 
 ```
 sleep_mobile_stress_dataset_15000/
@@ -34,20 +30,6 @@ sleep_mobile_stress_dataset_15000/
 ├── preprocessing/
 │   └── preprocessing.py
 │
-├── models/
-│   ├── ml_models.py
-│   └── deep_learning.py
-│
-├── evaluation/
-│   └── evaluation.py
-│
 ├── utils/
 │   └── visualization.py
-│
-├── tests/
-│   ├── test_data_loader.py
-│   ├── test_preprocessing.py
-│   ├── test_ml_models.py
-│   ├── test_deep_learning.py
-│   └── test_evaluation.py
 ```
